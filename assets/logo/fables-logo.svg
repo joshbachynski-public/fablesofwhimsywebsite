@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-label="Fables of Whimsy">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e6b0"/>
+      <stop offset=".45" stop-color="#e4c983"/>
+      <stop offset=".7" stop-color="#c6a15b"/>
+      <stop offset="1" stop-color="#8c6d34"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round">
+    <!-- emblem: open book + rising moon + stars, framed by whiplash curves -->
+    <g transform="translate(260 40)">
+      <path d="M-34 14 C-20 6 -6 6 0 12 C6 6 20 6 34 14 L34 30 C20 22 6 22 0 28 C-6 22 -20 22 -34 30 Z"/>
+      <path d="M0 12 L0 28" />
+      <circle cx="0" cy="-8" r="11"/>
+      <path d="M4 -13 a8 8 0 1 0 0 12" fill="#0a0a0c" stroke="none"/>
+      <circle cx="-26" cy="-14" r="1.4" fill="url(#gold)" stroke="none"/>
+      <circle cx="24" cy="-18" r="1.2" fill="url(#gold)" stroke="none"/>
+      <circle cx="30" cy="0" r="1.1" fill="url(#gold)" stroke="none"/>
+      <circle cx="-30" cy="2" r="1.1" fill="url(#gold)" stroke="none"/>
+      <path d="M-52 8 C-64 4 -64 -14 -50 -16" />
+      <path d="M52 8 C64 4 64 -14 50 -16" />
+    </g>
+  </g>
+  <g fill="url(#gold)">
+    <text x="260" y="104" text-anchor="middle" font-family="'Cinzel','Cormorant Garamond',serif" font-size="30" letter-spacing="6">FABLES OF WHIMSY</text>
+  </g>
+  <g fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-linecap="round">
+    <path d="M150 128 C200 118 320 118 370 128"/>
+    <circle cx="150" cy="128" r="2" fill="url(#gold)" stroke="none"/>
+    <circle cx="370" cy="128" r="2" fill="url(#gold)" stroke="none"/>
+    <text x="260" y="146" text-anchor="middle" font-family="'Marcellus',serif" font-size="10" letter-spacing="7" fill="url(#gold)" stroke="none">A BOOKISH COLLECTIVE</text>
+  </g>
+</svg>
