@@ -15,7 +15,7 @@
    endDate     : optional "YYYY-MM-DD" for multi-day events
    time        : freeform e.g. "10:00 AM – 1:00 PM"
    location    : venue / neighbourhood
-   image       : path to hero photo, e.g. "assets/img/coffee-books.jpg"
+   image       : path to hero photo, e.g. "assets/img/coffee-books.svg"
                  (leave "" to use a painted art-nouveau backdrop)
    excerpt     : one enticing sentence for the events grid
    body        : array of paragraphs (HTML allowed) for the detail page
@@ -33,7 +33,7 @@ window.FABLES_EVENTS = [
     date: "2026-08-16",
     time: "10:00 AM – 2:00 PM",
     location: "The Old Quarter — three independent bookshops",
-    image: "assets/img/coffee-books.jpg",
+    image: "assets/img/coffee-books.svg",
     excerpt:
       "Espresso, pastries, and a guided wander through three enchanting independent bookshops — with a secret literary favour at each door.",
     price: "$48 per reader",
@@ -57,7 +57,7 @@ window.FABLES_EVENTS = [
     date: "2026-08-30",
     time: "1:00 PM – 4:00 PM",
     location: "The Conservatory Studio",
-    image: "assets/img/key-book.jpg",
+    image: "assets/img/key-book.svg",
     excerpt:
       "Bind your own botanical journal by candlelight — marbled papers, waxed thread, and pressed ivy under gilded covers.",
     price: "$65 per maker · materials included",
@@ -79,7 +79,7 @@ window.FABLES_EVENTS = [
     date: "2026-09-06",
     time: "7:00 PM – 9:00 PM",
     location: "The Amethyst Room",
-    image: "assets/img/tower-starfield.jpg",
+    image: "assets/img/tower-starfield.svg",
     excerpt:
       "A candlelit evening of discussion, cordials, and constellations — this season's read unravelled beneath the stars.",
     price: "$22 · includes a welcome cordial",
@@ -101,7 +101,7 @@ window.FABLES_EVENTS = [
     date: "2026-09-21",
     time: "8:00 PM – late",
     location: "The Grand Library Hall",
-    image: "assets/img/library-archway.jpg",
+    image: "assets/img/library-archway.svg",
     excerpt:
       "Come masked as your favourite fictional soul for a night of readings, revelry, and a hidden door in the stacks.",
     price: "$70 · costume encouraged",

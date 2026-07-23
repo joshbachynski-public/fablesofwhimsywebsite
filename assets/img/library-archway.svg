@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="A candlelit library with a grand gilded archway and glowing bookshelves">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#160f1c"/>
+      <stop offset="1" stop-color="#22162a"/>
+    </linearGradient>
+    <radialGradient id="archGlow" cx="0.5" cy="0.62" r="0.55">
+      <stop offset="0" stop-color="#ffcf85" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#c6a15b" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c6a15b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shelfGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a12"/>
+      <stop offset="1" stop-color="#1a1208"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1220"/>
+      <stop offset="1" stop-color="#0a0810"/>
+    </linearGradient>
+    <radialGradient id="lantern" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffe6ab"/>
+      <stop offset="1" stop-color="#c6a15b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#wall)"/>
+
+  <!-- ambient glow behind arch -->
+  <rect width="1200" height="800" fill="url(#archGlow)"/>
+
+  <!-- room floor -->
+  <rect y="650" width="1200" height="150" fill="url(#floor)"/>
+  <path d="M0 650 H1200" stroke="#c6a15b" stroke-width="1" opacity="0.3"/>
+
+  <!-- warm interior seen through the arch -->
+  <g>
+    <path d="M420 650 V300 a180 180 0 0 1 360 0 V650 Z" fill="url(#shelfGlow)"/>
+    <!-- shelves with book spines -->
+    <g opacity="0.9">
+      <rect x="440" y="360" width="320" height="4" fill="#0f0a05"/>
+      <rect x="440" y="440" width="320" height="4" fill="#0f0a05"/>
+      <rect x="440" y="520" width="320" height="4" fill="#0f0a05"/>
+      <rect x="440" y="600" width="320" height="4" fill="#0f0a05"/>
+    </g>
+    <g>
+      <!-- rows of book spines -->
+      <g fill="#8c6d34">
+        <rect x="452" y="326" width="9" height="32"/><rect x="466" y="322" width="8" height="36"/>
+        <rect x="479" y="328" width="10" height="30"/><rect x="494" y="320" width="7" height="38"/>
+        <rect x="506" y="326" width="9" height="32"/><rect x="520" y="324" width="8" height="34"/>
+        <rect x="700" y="326" width="9" height="32"/><rect x="714" y="322" width="8" height="36"/>
+        <rect x="727" y="328" width="10" height="30"/><rect x="742" y="320" width="7" height="38"/>
+      </g>
+      <g fill="#4b2d55">
+        <rect x="536" y="322" width="9" height="36"/><rect x="550" y="326" width="8" height="32"/>
+        <rect x="640" y="322" width="9" height="36"/><rect x="654" y="326" width="8" height="32"/>
+        <rect x="452" y="406" width="9" height="34"/><rect x="466" y="402" width="8" height="38"/>
+      </g>
+      <g fill="#0d3b2c">
+        <rect x="564" y="324" width="10" height="34"/><rect x="612" y="322" width="8" height="36"/>
+        <rect x="480" y="404" width="9" height="36"/><rect x="720" y="404" width="9" height="36"/>
+      </g>
+      <g fill="#c6a15b" opacity="0.85">
+        <rect x="588" y="326" width="7" height="32"/><rect x="626" y="404" width="7" height="36"/>
+        <rect x="700" y="486" width="7" height="34"/><rect x="500" y="486" width="7" height="34"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- gilded arch -->
+  <path d="M406 660 V300 a194 194 0 0 1 388 0 V660" fill="none" stroke="#c6a15b" stroke-width="8"/>
+  <path d="M426 660 V300 a174 174 0 0 1 348 0 V660" fill="none" stroke="#e4c983" stroke-width="2" opacity="0.75"/>
+  <!-- keystone star -->
+  <path d="M600 96 l5 13 13 2 -9 10 3 14 -12-7 -12 7 3-14 -9-10 13-2z" fill="#e4c983"/>
+  <!-- arch spring flourishes -->
+  <path d="M406 470 C 360 450 356 400 396 384" fill="none" stroke="#c6a15b" stroke-width="2" opacity="0.6"/>
+  <path d="M794 470 C 840 450 844 400 804 384" fill="none" stroke="#c6a15b" stroke-width="2" opacity="0.6"/>
+
+  <!-- hanging lantern -->
+  <g>
+    <path d="M600 96 V150" stroke="#c6a15b" stroke-width="1.5"/>
+    <circle cx="600" cy="180" r="46" fill="url(#lantern)"/>
+    <path d="M584 164 h32 l-4 34 h-24 z" fill="#1a1208" stroke="#c6a15b" stroke-width="1.5"/>
+    <rect x="596" y="172" width="8" height="20" rx="3" fill="#ffe6ab"/>
+  </g>
+
+  <!-- side candelabra glows -->
+  <circle cx="230" cy="470" r="60" fill="url(#lantern)" opacity="0.7"/>
+  <circle cx="970" cy="470" r="60" fill="url(#lantern)" opacity="0.7"/>
+  <g stroke="#c6a15b" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M230 520 v-70 M200 470 h60 M200 470 v-14 M260 470 v-14 M230 450 v-14"/>
+    <path d="M970 520 v-70 M940 470 h60 M940 470 v-14 M1000 470 v-14 M970 450 v-14"/>
+  </g>
+  <g fill="#ffe6ab">
+    <rect x="196" y="446" width="8" height="12" rx="3"/><rect x="256" y="446" width="8" height="12" rx="3"/><rect x="226" y="430" width="8" height="12" rx="3"/>
+    <rect x="936" y="446" width="8" height="12" rx="3"/><rect x="996" y="446" width="8" height="12" rx="3"/><rect x="966" y="430" width="8" height="12" rx="3"/>
+  </g>
+</svg>

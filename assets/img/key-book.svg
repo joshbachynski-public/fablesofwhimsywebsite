@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="An open book with a golden key and trailing ivy by candlelight">
+  <defs>
+    <linearGradient id="kbBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161022"/>
+      <stop offset="0.6" stop-color="#22162a"/>
+      <stop offset="1" stop-color="#0c0812"/>
+    </linearGradient>
+    <radialGradient id="kbCandle" cx="0.22" cy="0.3" r="0.5">
+      <stop offset="0" stop-color="#ffdf9c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffdf9c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e7c2"/>
+      <stop offset="1" stop-color="#d9c99b"/>
+    </linearGradient>
+    <linearGradient id="keyGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6e6b0"/>
+      <stop offset="0.5" stop-color="#e4c983"/>
+      <stop offset="1" stop-color="#8c6d34"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#kbBg)"/>
+  <rect width="1200" height="800" fill="url(#kbCandle)"/>
+
+  <!-- open book -->
+  <g transform="translate(600 470)">
+    <ellipse cx="0" cy="180" rx="440" ry="46" fill="#000" opacity="0.35"/>
+    <!-- covers -->
+    <path d="M-420 40 L-10 10 L-10 190 L-420 210 Z" fill="#4b2d55"/>
+    <path d="M420 40 L10 10 L10 190 L420 210 Z" fill="#4b2d55"/>
+    <!-- pages -->
+    <path d="M-405 30 C -220 -6 -60 -6 -8 16 L-8 176 C -60 154 -220 154 -405 190 Z" fill="url(#page)"/>
+    <path d="M405 30 C 220 -6 60 -6 8 16 L8 176 C 60 154 220 154 405 190 Z" fill="url(#page)"/>
+    <!-- centre spine -->
+    <path d="M-8 16 C -4 12 4 12 8 16 L8 176 C 4 172 -4 172 -8 176 Z" fill="#c9b681"/>
+    <!-- text lines -->
+    <g stroke="#8c6d34" stroke-width="2" opacity="0.5">
+      <path d="M-360 60 h300 M-360 82 h300 M-360 104 h280 M-360 126 h300"/>
+      <path d="M60 60 h300 M60 82 h300 M60 104 h280 M60 126 h300"/>
+    </g>
+  </g>
+
+  <!-- golden key resting across the pages -->
+  <g transform="rotate(-18 600 470)">
+    <circle cx="470" cy="470" r="42" fill="none" stroke="url(#keyGold)" stroke-width="12"/>
+    <circle cx="470" cy="470" r="16" fill="#161022"/>
+    <path d="M508 470 h230" stroke="url(#keyGold)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M712 470 v34 M736 470 v46 M688 470 v24" stroke="url(#keyGold)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M448 450 l-14 -14 M492 450 l14 -14" stroke="url(#keyGold)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- candle, left -->
+  <g transform="translate(150 430)">
+    <rect x="-26" y="40" width="52" height="150" rx="8" fill="#e9dcb4"/>
+    <rect x="-26" y="40" width="52" height="14" fill="#f6efd4"/>
+    <path d="M0 40 v-16" stroke="#3a2a12" stroke-width="2"/>
+    <path d="M0 24 C -10 8 10 4 0 -18 C 8 0 10 18 0 24 Z" fill="#ffd77a"/>
+    <path d="M0 20 C -5 10 5 8 0 -6 C 4 4 5 14 0 20 Z" fill="#fff2c8"/>
+    <ellipse cx="0" cy="46" rx="90" ry="20" fill="#ffdf9c" opacity="0.18"/>
+  </g>
+
+  <!-- trailing ivy -->
+  <g stroke="#0d3b2c" stroke-width="3.5" fill="none">
+    <path d="M1180 120 C 1040 160 1080 300 980 360 C 900 408 940 520 1040 560"/>
+  </g>
+  <g fill="#14503c" stroke="#0d3b2c" stroke-width="1.5">
+    <path d="M1090 168 c 26 -20 54 -10 60 16 c -30 6 -50 -2 -60 -16z"/>
+    <path d="M1016 300 c -26 -20 -54 -10 -60 16 c 30 6 50 -2 60 -16z"/>
+    <path d="M1000 440 c 26 -20 54 -10 60 16 c -30 6 -50 -2 -60 -16z"/>
+    <path d="M980 236 c 22 -24 52 -18 62 6 c -28 12 -50 8 -62 -6z" opacity="0.9"/>
+  </g>
+  <g fill="#e4c983" opacity="0.85">
+    <circle cx="1060" cy="140" r="3"/><circle cx="960" cy="360" r="3"/><circle cx="1030" cy="520" r="3"/>
+  </g>
+</svg>
