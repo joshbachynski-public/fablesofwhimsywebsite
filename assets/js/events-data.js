@@ -33,7 +33,7 @@ window.FABLES_EVENTS = [
     date: "2026-08-16",
     time: "10:00 AM – 2:00 PM",
     location: "The Old Quarter — three independent bookshops",
-    image: "assets/img/coffee-books.svg",
+    image: "assets/img/coffee-books.jpg",
     excerpt:
       "Espresso, pastries, and a guided wander through three enchanting independent bookshops — with a secret literary favour at each door.",
     price: "$48 per reader",
