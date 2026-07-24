@@ -89,11 +89,11 @@
         '<h1>This tale isn’t on our shelves.</h1>'+
         '<p class="lead measure">The event you’re looking for may have wandered off. Return to the calendar to find what’s next.</p>'+
         '<a class="btn" href="events.html">View the calendar</a></div>';
-      document.title = "Not found · Fables of Whimsy";
+      document.title = "Not found · Fables of Nonsense and Whimsy";
       return;
     }
 
-    document.title = ev.title + " · Fables of Whimsy";
+    document.title = ev.title + " · Fables of Nonsense and Whimsy";
     var state = ticketState(ev);
     var mediaStyle = ev.image ? "" : backdrop(ev.slug);
     var mediaImg = ev.image ? '<img src="'+esc(ev.image)+'" alt="'+esc(ev.title)+'" onerror="this.style.display=\'none\'">' : "";

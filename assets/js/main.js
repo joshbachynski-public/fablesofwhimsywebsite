@@ -1,4 +1,4 @@
-/* Fables of Whimsy — interactions
+/* Fables of Nonsense and Whimsy — interactions
    - sticky header state
    - mobile nav
    - scroll-reveal
