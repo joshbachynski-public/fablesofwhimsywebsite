@@ -2,7 +2,7 @@
 
 A brand-first, visually-led site for **Fables of Whimsy**, a bookish collective
 hosting brunch & bookstore crawls, whimsical workshops, a candlelit book club,
-and enchanted literary events. Aesthetic: **magic meets art nouveau**.
+and enchanted bookish events. Aesthetic: **magic meets art nouveau**.
 
 Built as a plain static site — **no build step, no frameworks**. It runs by
 opening a file, and deploys free on GitHub Pages.
